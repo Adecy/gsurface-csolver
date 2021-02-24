@@ -1,5 +1,5 @@
 //
-// Created by ldade on 18/02/2021.
+// Created by Lucas Dietrich on 18/02/2021.
 //
 #include <iostream>
 #include <cmath>
