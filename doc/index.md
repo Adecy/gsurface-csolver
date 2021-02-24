@@ -19,10 +19,18 @@ https://blog.jetbrains.com/clion/2018/01/clion-and-linux-toolchain-on-windows-ar
 
 `clion setup c project for linux`
 
-# Maths librarys for CPP
+# Maths libraries for CPP
 
 https://stackoverflow.com/a/11169765
 
 ## xtensor
 
-https://xtensor.readthedocs.io/en/latest/numpy.html
+Documentation:
+- https://xtensor.readthedocs.io/en/latest/
+
+Numpy comparison
+- https://xtensor.readthedocs.io/en/latest/numpy.html
+
+GitHub repo:
+- https://github.com/xtensor-stack/xtensor
+
