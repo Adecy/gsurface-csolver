@@ -24,3 +24,14 @@ sudo make install
 ```
 
 CLion will detect the library after building the project.
+
+# Install [odeint-v2](https://github.com/headmyshoulder/odeint-v2)
+
+Git hub is : https://github.com/headmyshoulder/odeint-v2
+
+```
+git clone https://github.com/headmyshoulder/odeint-v2
+cd odeint-v2
+```
+
+**TODO**

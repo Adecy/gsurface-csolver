@@ -34,3 +34,5 @@ Numpy comparison
 GitHub repo:
 - https://github.com/xtensor-stack/xtensor
 
+xtensor create .npy file :
+- https://xtensor.readthedocs.io/en/latest/api/xmanipulation.html?highlight=copy
