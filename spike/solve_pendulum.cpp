@@ -7,6 +7,7 @@
 #include <xtensor/xio.hpp>
 #include <xtensor/xview.hpp>
 
+
 namespace example {
     class SolvePendulum {
         public:
@@ -16,6 +17,8 @@ namespace example {
 
         explicit SolvePendulum(double theta0 = 0.0, double w0 = 1.0) : theta0(theta0), w0(w0) {
             printf("Initial state parameters : theta0 = %f, w0 = %f\n", this->theta0, this->w0);
+
+            // TODO add RK4 solver
         }
     };
 }

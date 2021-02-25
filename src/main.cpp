@@ -2,7 +2,7 @@
 
 #include "../spike/solve_pendulum.cpp"
 
-#include "odeint/RungeKuttaSolver.h"
+#include "odeint/RungeKuttaSolver4.h"
 
 #include <xtensor/xnpy.hpp>
 
@@ -21,7 +21,7 @@ int main() {
 
     xt::xarray<double> time = xt::linspace<double>(0.0, 10.0, 1000);
 
-    RungeKuttaSolver rk4solver = RungeKuttaSolver(ds, s0);
+    RungeKuttaSolver4 rk4solver = RungeKuttaSolver4(ds, s0);
 
     xt::xarray<double> states = rk4solver.solve(time);
 
